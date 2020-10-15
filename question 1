@@ -1,1 +1,10 @@
 
+a=int (input("please give a number as 1st variable:"))
+b=int (input("please give a number as 2nd variable:"))
+
+a = a + b
+b = a - b
+a = a - b
+
+print("swapping: a =", a, "b =", b)
+
